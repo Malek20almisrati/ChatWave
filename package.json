@@ -1,0 +1,25 @@
+{
+  "name": "chatwave",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env server/index.mjs",
+    "start": "node server/index.mjs",
+    "db:migrate": "node --env-file-if-exists=.env server/scripts/migrate.mjs",
+    "env:init": "node server/scripts/init-env.mjs",
+    "storage:init": "node --env-file-if-exists=.env server/scripts/init-storage.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.800.0",
+    "@aws-sdk/s3-presigned-post": "^3.800.0",
+    "@aws-sdk/s3-request-presigner": "^3.800.0",
+    "@fastify/rate-limit": "^10.0.0",
+    "argon2": "^0.45.1",
+    "fastify": "^5.11.0",
+    "pg": "^8.16.3"
+  }
+}

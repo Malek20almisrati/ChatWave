@@ -1,0 +1,5 @@
+packages:
+  - .
+
+allowBuilds:
+  argon2: true

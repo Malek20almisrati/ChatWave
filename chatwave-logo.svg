@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 650" role="img" aria-labelledby="title desc">
+  <title id="title">ChatWave</title>
+  <desc id="desc">علامة محادثة تتشكل كموجة حول اسم ChatWave.</desc>
+  <defs>
+    <linearGradient id="wave" x1="76" y1="82" x2="364" y2="322" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5966F2"/>
+      <stop offset=".53" stop-color="#7863EE"/>
+      <stop offset="1" stop-color="#25BFC2"/>
+    </linearGradient>
+    <linearGradient id="bubble" x1="115" y1="111" x2="320" y2="302" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity=".98"/>
+      <stop offset="1" stop-color="#F1F4FF" stop-opacity=".94"/>
+    </linearGradient>
+    <filter id="soft" x="24" y="24" width="430" height="408" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+  <ellipse cx="241" cy="354" rx="160" ry="27" fill="#565EEB" opacity=".14" filter="url(#soft)"/>
+  <path d="M116 90h229c38 0 69 31 69 69v112c0 38-31 69-69 69h-72l-77 55 16-55h-96c-38 0-69-31-69-69V159c0-38 31-69 69-69Z" fill="url(#wave)"/>
+  <path d="M149 121h165c28 0 50 22 50 50v91c0 28-22 50-50 50H182l-42 31 10-31h-1c-28 0-50-22-50-50v-91c0-28 22-50 50-50Z" fill="url(#bubble)"/>
+  <path d="M128 218c23 0 23-35 46-35s23 54 46 54 23-68 46-68 23 49 46 49" fill="none" stroke="url(#wave)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="341" cy="117" r="13" fill="#FF8A79"/>
+  <circle cx="118" cy="324" r="7" fill="#29C4BD" opacity=".75"/>
+  <text x="380" y="480" text-anchor="middle" fill="#202744" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="700" letter-spacing="-3">ChatWave</text>
+  <text x="380" y="536" text-anchor="middle" fill="#777F98" font-family="Arial, sans-serif" font-size="24" letter-spacing=".5">موجة تجمعنا</text>
+</svg>
